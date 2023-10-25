@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>mi carata de presentacion</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" type="text/css" href="tu-archivo-de-estilos.css">
+    <link rel="stylesheet" href="sarria.css">
+    <style>
+        .texto-derecha {
+            text-align: end;
+        }
+
+        .texto-izquierda {
+            width: auto;
+            text-align: left;
+            border: 2px solid black;
+        }
+
+        .texto-centrado {
+            border: 2px solid black;
+            padding: 23px;
+            border-radius: 10px 100px / 120px 100px;
+            background-color: #b5b5b5;
+            text-align: left;
+            width: auto;
+            display: inline-block;
+        }
+
+        .texto-lindo {
+            border: 2px solid black;
+            padding: 10px;
+            display: inline-block;
+            border-radius: 10px 100px / 120px 100px;
+            background-color: #b5b5b5;
+            padding: 9px 100px;
+            color: black;
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        body {
+            background-image: url('universo.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>apenas el inicio</h1>
+        <nav class="texto-derecha">
+            <ul>
+                <li><a href="#c4">Inicio</a></li>
+                <li><a href="#C2">Acerca de</a></li>
+                <li><a href="#C1">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <button id="scrollToTopButton">Inicio</button>
+    <br>
+    <div class="texto-centrado">
+        <h1 style="text-align: left;">carta de presentacion</h1> <!-- tengo un borde de un color y centrado -->
+    </div>
+    <hr>
+    <!-- linea independiente centrada con fondo de color -->
+    <br>
+    <div>
+        <h1 class="h1-custom">JULIAN STEBAN CIRO SARRIA</h1> <!--** sentrar parrafo -->
+        <hr>
+        <br>
+        <div class="container">
+            <h2 class="texto-lindo">formas de contacto</h2>
+        </div>
+        <br>
+        <div class="texto-izquierda">
+            <nav>
+                <ul>
+                    <br>
+                    <li>
+                        <button class="joinBtn"
+                            onclick="document.location='https://api.whatsapp.com/send?phone=573107432634'"
+                            target="_blank">whatsapp</button><br>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="https://api.whatsapp.com/send?phone=573107432634" title="WhatsApp"
+                            target="_blank"><img src="wapp.png" alt="link de whatsapp"
+                                style="width:42px;height:42px;"></a><br>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="https://api.whatsapp.com/send?phone=573107432634" title="que mas bien o que"
+                            target="_blank">contactame a mi whatsapp</a><br>
+                    </li>
+                </ul>
+            </nav>
+
+            <p class="p">* mi repocitorio en git hub</p>
+            <ul>
+                <li>
+                    <a href="https://github.com/CIROjulian" title="github"
+                        target="_blank"><img src="github.jpg" alt="link de mi github"
+                            style="width:120px;height:60px;"></a><br>
+                </li>
+            </ul>
+
+            <p  class="p">* mi perfil de linkedink</p>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/julián-ciro-422621263" title=" linkedink" target="_blank">Mi
+                        perfil de LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/julián-ciro-422621263" title="linkedink
+                        target="_blank"><img src="linke.webp" alt="link de mi linkedink"
+                            style="width:120px;height:60px;"></a><br>
+                </li>
+            </ul>
+
+            <p class="p">* mi correo electronico</p>
+            <ul>
+                <li>
+                    <a href="mailto:jciro148@gmail.com" title="correo" target="_blank">Contacta con migo por correo
+                        electrónico</a>
+                </li>
+                <a href="mailto:jciro148@gmail.com" title="correo electronico
+                        target="_blank"><img src="correo.png" alt="link de mi linkedink"
+                            style="width:100px;height:50px;"></a><br>
+            </ul>
+            <hr>
+            </nav>
+        </div>
+
+        <div>
+            <h2>formato rapido</h2>
+            <div class="texto-izquierda">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#C1">experiencia laboral</a><br>
+                        </li>
+                        <br>
+                        <li>
+                            <a href="#C2">un poco mas sobre mi</a><br>
+                        </li>
+                        <br>
+                        <li>
+                            <a href="#C4">estudios</a><br>
+                        </li>
+                        <br>
+                        <li>
+                            <a href="#C3" margin-top: 0; margin-right: 0;>messi campeon</a><br>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <hr>
+        <pre class="pre">
+        Hola me presento julian porque si porque no y porque tal vez jajajajaja
+        actualmente soy estudiante en la univercidad tegnica autonoma del paficica(utap) y estoy en la carrera
+        de desarrollo de sistemas informaticos en 2 semestre
+        pero anteriormete ise un tecnico en costos y contabilidad la cual me ha servido para homologar 
+        materias que ya vi en esta institucion academica eso me ha
+        ayudado en adelantar mis estudios ys que puedo adelantar materias de otros semestres mas adelante y 
+        asi obtimizar el tiempo y tambien aprobechar las oportunidades</pre>
+    </div>
+    <div class="div">
+        <hr>
+        <h2 class="h2-custom" id="C1">EXPERIENCIA LABOTAL</h2>
+        <h3>aprendiz | area contable y financiera </h3>
+        <pre class="pre">
+        Logré con efectividad una optimización en los procesos de las descargas de los consecutivos en un 50%.
+        obtuve una gran efectividad en la recolección de los certificados de iva anuales y trimestrales en un 30%.
+        con cada tarea asignada entendía como se trabajaba y resolvía y creaba una nueva forma de llegar al mismo
+        resultado pero mayor eficiencia y también pude realizar varios eventos deportivos.
+
+         * revisar y analizar informes de comisiones.                                   
+         * adjuntar los consecutivos de cada mes de los clientes.                       
+         * recolección de certificados de la DIAN: anuales, semestrales. y trimestrales.
+         * inscripción de proveedores a la base de datos contable.                      
+         * depreciación de activos fijos.                                               
+         * conciliaciones bancarias.                                                    
+         * alistamiento y archivo dé facturas.                                          
+         * realizar bases de datos con información especifica.                          
+        </pre>
+        <img src="contabi.png">
+        <h3 class="h3-custom">Software utilizados</h3>
+        <pre>
+         SIESA - medio alto  
+         COMFIAR - medio alto
+         SG-1 - medio        
+         CRM - medio alto    
+         ZEUS - medio        
+         EXCEL -medio alto   </pre>
+
+    </div>
+    <div  class="div">
+        <hr>
+        <h3 class="h3-custom">monitor de la UTAP</h3>
+        <pre>
+        aculmente llevo estoy en el cargo como monitor aproximadamente tres semanas, una las funciones como monitor son:
+        obtimizar los computaores tanto de la salas de computo como de los que se les presta a los ptofesores
+        realizar mantenimiento preventivo a los equipos de computo
+        parte electrica de la univercidad
+        parte logistica y administrativa</pre>
+        <img src="sistemas.jfif">
+    </div>
+    <hr>
+    <div class="div"> 
+    <h3 class="h3-custom">jugador de badminton</h3>
+    <pre>
+        Como deportista profesional en la liga del Valle, mi dedicación y pasión por el bádminton se han convertido en el centro de mi vida.
+        Durante un período de cinco años, me embarqué en un viaje de constante superación y competición en este apasionante deporte, enfrentándome a desafíos cada vez más exigentes.
+        Mi punto culminante llegó en el prestigioso torneo de bádminton de la ciudad de Cali. En esa ocasión, junto a mi compañero de dobles masculinos,
+        demostramos un nivel de juego excepcional. Nuestra ardua preparación y sincronización en la cancha nos llevaron a conquistar la codiciada medalla de oro en la categoría de dobles masculinos,
+        un logro que no solo nos llenó de orgullo, sino que también destacó nuestro compromiso con la excelencia deportiva.
+        Sin embargo, mi desafío no se limitó al juego en equipo, ya que también participó en la categoría individual masculina con gran determinación.
+        A través de enfrentamientos emocionantes y momentos de intensidad, lograrás ganar la medalla de oro en la categoría individual. Este logro individual 
+        consolidó mi posición como un atleta de élite en el mundo del bádminton y reforzó mi reputación como un competidor de alto rendimiento.  
+        Ser un deportista profesional en la liga del Valle y ganar el primer torneo de bádminton en la ciudad de Cali en las categorías de dobles masculinos y
+        singles masculinos ha sido el punto culminante de mi carrera hasta el momento. Estos logros han sido fruto de años de dedicación, entrenamiento riguroso y
+        una pasión inquebrantable por el bádminton. Estoy emocionado por continuar representando a mi liga y mi ciudad en futuros desafíos y por seguir trabajando
+        incansablemente para alcanzar nuevas metas en este emocionante deporte.</pre>
+    <img src="badminton.jfif">
+    <img src="raqueta.jpg">
+</div>
+    <hr>
+    <div  class="div">
+        <h2 class="h2-custom" id="C4">ESTUDIOS</h2>
+        <h3>tecnico en costos y contabilidad en intenalco</h3>
+        <pre class="pre">
+           <strong>pedio de inicio 2019 | teminacion 2021</strong>
+            Mis estudios en costos y contabilidad me han proporcionado una base sólida de conocimientos y habilidades en el campo de la gestión financiera y
+            la toma de decisiones empresariales.Durante mi formación académica, adquirió conocimientos en una variedad de materias clave, que incluyen:
+            <strong>1.</strong> Contabilidad Financiera: Aprendí a preparar estados financieros, analizar transacciones comerciales y entender los principios contables básicos.                                         .
+            <strong>2.</strong> Contabilidad de Costos: Adquirí la capacidad de calcular y asignar costos, realizar análisis de rentabilidad y evaluar el desempeño de los productos o servicios.                         
+            <strong>3.</strong> Contabilidad Financiera: Durante este curso, adquirí una base sólida en los principios contables, lo que me permitió comprender y registrar transacciones financieras de manera precisa.  
+            <strong>4.</strong> Contabilidad de Costos: Este curso me permitió profundizar en la determinación de costos de producción, análisis de costos y la elaboración de presupuestos,                              
+            habilidades fundamentales para la gestión eficiente de recursos en una empresa.                                                                                                        
+            <strong> 5.</strong> Gestión Financiera: Aprender a evaluar la salud financiera de una empresa, realizar análisis de riesgo, y tomar decisiones estratégicas relacionadas con la inversión y financiamiento.     
+            <strong>6.</strong> Impuestos: Este curso me proporcionó una comprensión detallada de la legislación fiscal, lo que me capacita para asesorar sobre la optimización fiscal y el cumplimiento normativo.        
+            <strong> 7.</strong> Auditoría: Aprendí a evaluar la integridad de los estados financieros y asegurar el cumplimiento de las normativas contables y fiscales, una habilidad valiosa para garantizar              
+             la transparencia en las operaciones de una empresa.                                                                                                                                       
+            <strong>8.</strong> Sistemas de Información Contable: Comprendí la importancia de las tecnologías contables y su contribución a la eficiencia y precisión en la gestión de información financiera.             
+            <strong> 9.</strong> Ética en Contabilidad: Aprendí sobre los estándares éticos y profesionales que deben regir la práctica contable, promoviendo la integridad y la confianza en la profesión.                  
+            <strong>10.</strong> Análisis Financiero: Desarrollé habilidades para interpretar estados financieros y evaluar el rendimiento de una empresa a través de ratios financieros y otros indicadores clave.         
+             </pre>
+        <img src="estudio.jpg" width="600" height="450">
+
+        <h3>Desarrollo de sistemas informaticos segundo semestre en la univercidad tecnologica autonoma del pacifico
+        </h3>
+        <pre>
+            <strong>periodo de inicio marzo 2023</strong>
+            Actualmente en mi programa de estudios en ingeniería en sistemas, he adquirido bases teóricas y prácticas en el área como la programación, el análisis de sistemas y la gestión de bases de datos.
+            Mi enfoque en esta area  me ha permitido aumentar mis habilidades técnicas con conocimientos especializados en el area de sistemas.
+            Estoy emocionado por seguir desarrollando mis habilidades en ingeniería en sistemas y aplicar mis conocimientos en el campo.
+            Estoy comprometido con el aprendizaje continuo y la mejora constante, y estoy seguro de que mi pasión y dedicación serán activos valiosos para cualquier equipo o proyecto en el que participe.
+        </pre>
+        <pre>
+            <strong>Software utilizados</strong>
+            SIESA - medio alto  
+            COMFIAR - medio alto
+            CRM - medio alto    
+            ZEUS - medio        
+            EXCEL -medio        
+            VISUAL STUDIO CODE  
+            JAVA                
+            HTML                
+        </pre>
+        <img src="programacion.jpg">
+        <div class="div">
+            <hr>
+            <h3 id="C2">UN POCO MAS SOBRE MI </h3>
+            <pre>soy muy fanatico del futbol mas que todo con la seleccion argentina y con el futbol club barcelona,
+                digamos que siempre me ha llamada la atencion este deporte tanto verlo como jugarlo, digamos que para mi
+                el deporte es un metodo de relajacion en la cual me relaja y me desahogo puedo estar pasando por moentos
+                ficiciles y esto es o que hace el futbol por mi, pero tansolo el furbol el badminton que es el deporte
+                que mas me gusta jugar indibidualmente y que es un deporte de mucha inteligencia mas que de fisico </pre>
+            <img src="copa.jpg" width="659" height="500" id="C3">
+            <img src="mes.avif" width="659" height="500">
+            <pre>tambien soy un fanatico de los carros, para mi los automobiles son otra parte de mi vida que me hacen muy
+                feliz y que me hacen ver el mundo de otra manerea deseo algun dia cumplir mis metas por que mas que un
+                sueño es un objetivo personal tener los coche que mas me gustan a mi</pre>
+            <h4>ford mustang</h4>
+            <img src="ford.jpg" width="700" height="500">
+            <h4>mercedez benz clase A</h4>
+            <img src="amg.jpg" width="700" height="500">
+            <hr>
+        </div>
+        <script src="julian.js"></script>
+</body>
+
+</html>

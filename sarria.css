@@ -1,0 +1,155 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.joinBtn {
+    width: 10em;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: 2px solid firebrick;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+
+.joinBtn:active {
+    box-shadow: 2px 2px 5px yellow;
+    background-color: blue;
+}
+
+.joinBtn:hover {
+    background-color: blue;
+}
+
+.container {
+    text-align: center;
+    /* Centra el contenido horizontalmente */
+}
+
+/* Estilos para h1 */
+.h1-custom {
+    text-align: center;
+    background-color: rgb(168, 18, 18);
+    color: black;
+    border-radius: 100px;
+    padding: 1px solid black;
+    border: 2px solid black;
+    /* Borde exterior */
+    background-clip: content-box;
+    /* Establecer el color de fondo solo dentro del contenido */
+    background-color: #FF0000;
+    /* Color de fondo dentro del h1 */
+    box-shadow: inset 1px 0 0 black;
+    /* Borde adicional ajustado al texto horizontalmente */
+
+}
+
+/* Estilos para h2 */
+.h2-custom {
+    text-align: center;
+    background-color: rgb(249, 249, 249);
+    color: black;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+/* Estilos para h3 */
+.h3-custom {
+    background-color: rgb(236, 240, 240);
+    color: rgb(15, 1, 1);
+    padding: 5px;
+    text-align: center;
+}
+
+/* Estilos para los enlaces */
+.link-estilo a:link,
+.link-estilo a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 9px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.link-estilo a:hover,
+.link-estilo a:active {
+    background-color: blue;
+}
+
+/* Estilos para los párrafos y pre */
+p,
+pre {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    text-wrap: wrap;
+    color: white;
+}
+
+/* Estilos para los listados */
+ul,
+ol {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Estilos para el fondo del cuerpo */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#scrollToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+    background-color: #ff5733;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+}
+header>h1{
+    color:rgb(250, 250, 250)
+}
+
+.texto-derecha ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.texto-derecha li {
+    float: right;
+}
+
+.texto-derecha li>a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.texto-derecha li>a:hover {
+    background-color: #111;
+}
+.div {
+    text-align: center;
+}
+
+.p {
+    text-align: left;
+}

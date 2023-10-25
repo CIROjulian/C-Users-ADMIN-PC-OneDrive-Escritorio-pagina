@@ -1,0 +1,19 @@
+.joinBtn {
+    width: 10em;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: none;
+    border: 2px solid firebrick;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .joinBtn:active {
+    box-shadow: 2px 2px 5px yellow;
+    background-color: blue;
+  }
+  .joinBtn:hover {
+  background-color: blue;
+}
